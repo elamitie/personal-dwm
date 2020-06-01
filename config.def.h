@@ -96,9 +96,9 @@ static Key keys[] = {
 
 	/*  Launch Apps w/ SUPER + ALT */
 	/*  TODO: Get a better filemanager lol */
-	{ MODKEY|Mod1Mask,              XK_e,      spawm,          CMD("emacs") },
-	{ MODKEY|Mod1Mask,              XK_b,      spawm,          CMD("firefox") },
-	{ MODKEY|Mod1Mask,              XK_f,      spawm,          CMD("nautilus") },
+	{ MODKEY|Mod1Mask,              XK_e,      spawn,          CMD("emacs") },
+	{ MODKEY|Mod1Mask,              XK_b,      spawn,          CMD("firefox") },
+	{ MODKEY|Mod1Mask,              XK_f,      spawn,          CMD("nautilus") },
 
 	/*  TODO: Dmenu Scripts w/ ALT + CONTROL */
 
