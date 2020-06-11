@@ -100,6 +100,7 @@ static Key keys[] = {
 	{ MODKEY|Mod1Mask,              XK_e,      spawn,          CMD("emacs") },
 	{ MODKEY|Mod1Mask,              XK_b,      spawn,          CMD("firefox") },
 	{ MODKEY|Mod1Mask,              XK_f,      spawn,          CMD("nautilus") },
+	{ MODKEY|Mod1Mask,              XK_s,      spawn,          CMD("steam") },
 
 	/*  TODO: Dmenu Scripts w/ ALT + CONTROL */
 
