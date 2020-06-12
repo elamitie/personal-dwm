@@ -12,11 +12,11 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "JetBrains Mono:size=10:antialias=true:autohint=true" };
 static const char dmenufont[]       = "JetBrains Mono:size=10:antialias=true:autohint=true";
-static const char col_gray1[]       = "#44475a";
-static const char col_gray2[]       = "#55586b";
+static const char col_gray1[]       = "#282a36";
+static const char col_gray2[]       = "#393b47";
 static const char col_gray3[]       = "#bbbbbb";
 static const char col_gray4[]       = "#bbbbbb";
-static const char col_cyan[]        = "#ff5555";
+static const char col_cyan[]        = "#bd93f9";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
